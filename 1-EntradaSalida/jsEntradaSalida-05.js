@@ -16,10 +16,15 @@ function mostrar()
 }
 
 /* 
+
+Entradas:
+Declarar una variable
 Ingresar datos mediante prompt
 Ingresar datos mediante ID
-Declarar una variable
-Mostrar datos/informacion mediante alert
-Console. log()
-Mostrar datos desde documento document()
+
+Salidas:
+alert
+id
+console.log()
+document.write
 */
