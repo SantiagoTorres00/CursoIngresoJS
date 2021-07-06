@@ -12,7 +12,7 @@ function mostrar()
 
 
 
-	document.write("Usted se llama " + nombreIngresado + " y tiene "+ edadIngresada + " años ");
+	alert("Usted se llama " + nombreIngresado + " y tiene "+ edadIngresada + " años ");
 }
 
 /* 

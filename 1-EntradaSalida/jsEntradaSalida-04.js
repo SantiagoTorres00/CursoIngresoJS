@@ -8,9 +8,8 @@ function mostrar()
 
 	nombreIngresado = prompt("ingrese su nombre");//tomando dato por prompt
 
-	documente.getElementsById('txtIdNombre').value;
-
-	alert ("Su nombre es: " nombreIngresado);
+	//nombreIngresado = txtIdNombre.value;
+     txtIdNombre.value = nombreIngresado;
 
 
 
