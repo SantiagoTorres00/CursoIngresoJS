@@ -5,21 +5,46 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	alert("ok");	
+  var primerNumero = parseInt (document.getElementById('txtIdNumeroUno').value);
+
+  var segundoNumero =  parseInt (document.getElementById('txtIdNumeroDos').value);
+
+  r = primerNumero + segundoNumero;
+  
+  alert(r);
 }
 
 function restar()
 {
-	
+	var primerNumero = parseInt (document.getElementById('txtIdNumeroUno').value);
+    var segundoNumero = parseInt (document.getElementById('txtIdNumeroDos').value);
+    r = primerNumero - segundoNumero;
+
+	alert ("el resultado es: " + r);
 }
 
 function multiplicar()
 { 
-	
+	var primerNumero = parseInt (document.getElementById('txtIdNumeroUno').value);
+	var segundoNumero = parseInt (document.getElementById('txtIdNumeroDos').value);
+
+	r = primerNumero * segundoNumero;
+
+	alert("el resultado es: " + r);
 }
 
 function dividir()
 {
-	
+	var primerNumero = parseInt(document.getElementById('txtIdNumeroUno').value);
+	var segundoNumero = parseInt(document.getElementById('txtIdNumeroDos').value);
+
+	r = primerNumero / segundoNumero;
+
+	alert ("el resultado es: " + r);
 }
 
+/* 
+suma = +
+resta = -
+division
+*/

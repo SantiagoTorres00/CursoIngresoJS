@@ -9,16 +9,17 @@ function sumar()
 
   var segundoNumero =  parseInt (document.getElementById('txtIdNumeroDos').value);
   
-  var resulto = primerNumero + segundoNumero;
+  resulto = primerNumero + segundoNumero;
 
-alert ("El resultado es: " + resulto);
+  alert ("el resultado es: " + resulto);
 
 
 
-/*  
+/* 
 var n1 = parseInt (document.getElementById('txtIdNumeroUno').value);
 var n2 = parseInt (document.getElementById('txtIdNumeroDos').value);
 alert 
+*/
   
 }
 
