@@ -52,5 +52,5 @@ forma 2
   aumento = importeSueldo * 0.1
   aumento = importeSueldo * (10/100);
   resultado = importeSueldo + aumento;
-  txtIdResultado.value = reusltado.toFixed(2)
+  txtIdResultado.value = resultado.toFixed(2)
   */
