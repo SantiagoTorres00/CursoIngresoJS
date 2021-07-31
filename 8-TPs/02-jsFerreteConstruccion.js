@@ -46,13 +46,19 @@ function Materiales ()
  	{
 		var largo;
 		var ancho;
+		var area
+		var cemento
+		var cal
 		var resultado;
 
-		largo = parseFloat(txtIdLargo.value * 3);
-		ancho = parseFloat(txtIdAncho.value * 2);
+		largo = parseInt(txtIdLargo.value);
+		ancho = parseInt(txtIdAncho.value);
 
-		resultado = largo * ancho;
+		area = largo * ancho;
 
-		alert("Se necesitan " + largo.toFixed(2) + " bolsas de cal " + " y " + ancho.toFixed(2) + " bolsas de cemento ");
+		cemento = area * 3;
+		cal = area * 2;
+
+		alert("Se necesitan " + cemento + " bolsas de cal " + " y " + cal + " bolsas de cemento ");
 
 	}

@@ -13,8 +13,27 @@ var contadorIntentos;
 function comenzar()
 {
 	//Genero el número RANDOM entre 1 y 100
-	 
-		//alert(numeroSecreto );
+	//alert(numeroSecreto );
+
+	var numeroIngresado;
+	var numeroSecreto;
+
+	numeroIngresado = txtIdNumero.value;
+	numeroSecreto = Math.floor(Math.random() * 100);
+
+	if(numeroIngresado == numeroSecreto)
+	{
+		alert("Usted es el ganador");
+	}
+	else
+		if(numeroIngresado<numeroSecreto)
+		{
+			alert("Falta para llegar al numero secreto");
+		}
+		else
+		{
+			alert("Te pasaste del numero secreto");
+		}
 	
 
 }

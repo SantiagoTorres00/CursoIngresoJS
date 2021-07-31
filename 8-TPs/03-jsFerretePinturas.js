@@ -8,13 +8,12 @@ function FahrenheitCentigrados ()
 {
 	var Fahrenheit;
 	var Centígrados;
-	var Resultado;
+
 
 	Fahrenheit = txtIdTemperatura.value;
-	Centígrados = 32;
-	Resultado = (Fahrenheit - Centígrados);
+	Centígrados = (Fahrenheit - 32) / 1.8;
 
-	alert (Resultado);
+	alert(Centígrados);
 
 
 }
@@ -23,11 +22,10 @@ function CentigradosFahrenheit ()
 {
 	var Fahrenheit;
 	var Centígrados;
-	var Resultado;
 
-	Fahrenheit = 32;
+
 	Centígrados = txtIdTemperatura.value;
-	Resultado = (Fahrenheit - Centígrados);
+	Fahrenheit = Centígrados * 1.8 + 32;
 
-	alert (Resultado);
+	alert(Fahrenheit)
 }
